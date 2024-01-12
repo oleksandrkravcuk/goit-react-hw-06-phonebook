@@ -25,7 +25,6 @@ export const ContactList = () => {
             <p >
               {name} : {number}
             </p>
-            {/* contacts={findContacts} */}
             <button 
               type="button"
               onClick={() => deleteContact(id)}

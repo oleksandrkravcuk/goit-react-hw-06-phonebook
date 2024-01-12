@@ -68,6 +68,13 @@ ul {
     list-style: none;
     padding: 0;
 }
+li {
+    margin-bottom: 12px;
+    font-size: 24px;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
 button {
     padding: 16px;
     font-size: 18px;
