@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
-import { addContactsAction } from '../redux/phoneSlice';
+import { addContactsAction } from '../../redux/phoneSlice';
 import css from '../App.module.css';
 
 export const FormContact = () => {

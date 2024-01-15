@@ -3,7 +3,7 @@ import { ContactList } from './ContactList/ContactList';
 import { Filter } from './ContactFilter/ContactFilter';
 
 import './App.module.css';
-import './redux/store';
+import '../redux/store';
 
 export const App = () => {
   return (
